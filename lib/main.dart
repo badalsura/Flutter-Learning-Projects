@@ -23,9 +23,9 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('iQueue 365'),
+          title: const Text('iQueue 365'),
         ),
-        body: Text('test'),
+        body: const Text('test'),
         bottomNavigationBar: BottomNavigationBar(
           items: const <BottomNavigationBarItem>[
             BottomNavigationBarItem(
