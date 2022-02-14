@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import './home.dart';
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatefulWidget {
@@ -25,7 +27,7 @@ class _MyAppState extends State<MyApp> {
         appBar: AppBar(
           title: const Text('iQueue 365'),
         ),
-        body: const Text('test'),
+        body: HomePage(selectedIndex: _selectedIndex),
         bottomNavigationBar: BottomNavigationBar(
           items: const <BottomNavigationBarItem>[
             BottomNavigationBarItem(
